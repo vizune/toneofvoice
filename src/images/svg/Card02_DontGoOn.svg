@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 252">
+    <defs>
+        <style>
+        .card2_cls-1 { fill: #38328a; } .card2_cls-2 { fill: #e94266; }
+        </style>
+    </defs>
+    <g>
+        <path d="M0 0h180v252H0z" class="card2_cls-1"/>
+        <g id="card2-group">
+            <!-- Row 1 -->
+            <path d="M16.68 0A24 24 0 0 0 0 6.72v34.75A24.1 24.1 0 1 0 16.68 0z" class="card2_cls-2"/>
+            <circle cx="69.16" cy="24.09" r="23.39" class="card2_cls-2"/>
+            <circle cx="120.23" cy="24.09" r="22.68" class="card2_cls-2"/>
+            <path d="M169.87 2.13A22 22 0 1 0 180 43.6v-39a21.86 21.86 0 0 0-10.13-2.47z" class="card2_cls-2"/>
+            <!-- Row 2 -->
+            <path d="M20.68 74.45A21.25 21.25 0 0 0 0 53.22v42.46a21.25 21.25 0 0 0 20.68-21.23z" class="card2_cls-2"/>
+            <circle cx="46.24" cy="74.45" r="20.55" class="card2_cls-2"/>
+            <circle cx="91.63" cy="74.45" r="19.84" class="card2_cls-2"/>
+            <circle cx="135.61" cy="74.45" r="19.13" class="card2_cls-2"/>
+            <path d="M178.18 56a18.43 18.43 0 1 0 0 36.85c.6 0 1.22 0 1.83-.1V56.13c-.6-.06-1.2-.12-1.8-.12z" class="card2_cls-2"/>
+            <!-- Row 3 -->
+            <path d="M6.4 119.13A17.68 17.68 0 0 0 0 105.5v27.26a17.68 17.68 0 0 0 6.4-13.63z" class="card2_cls-2"/>
+            <circle cx="28.4" cy="119.13" r="17.01" class="card2_cls-2"/>
+            <circle cx="66.71" cy="119.13" r="16.3" class="card2_cls-2"/>
+            <circle cx="103.6" cy="119.13" r="15.59" class="card2_cls-2"/>
+            <circle cx="139.07" cy="119.13" r="14.88" class="card2_cls-2"/>
+            <path d="M173.13 105a14.17 14.17 0 1 0 6.87 26.52v-24.78a14.1 14.1 0 0 0-6.87-1.74z" class="card2_cls-2"/>
+            <!-- Row 4 -->
+            <path d="M7.26 141.85A13.4 13.4 0 0 0 0 144v22.66a13.46 13.46 0 1 0 7.26-24.8z" class="card2_cls-2"/>
+            <circle cx="38.48" cy="155.31" r="12.76" class="card2_cls-2"/>
+            <circle cx="68.28" cy="155.31" r="12.05" class="card2_cls-2"/>
+            <circle cx="96.67" cy="155.31" r="11.34" class="card2_cls-2"/>
+            <circle cx="123.64" cy="155.31" r="10.63" class="card2_cls-2"/>
+            <circle cx="149.19" cy="155.31" r="9.92" class="card2_cls-2"/>
+            <path d="M173.32 146.1a9.2 9.2 0 1 0 6.68 15.54V149a9.17 9.17 0 0 0-6.68-2.9z" class="card2_cls-2"/>
+            <!-- Row 5 -->
+            <path d="M7.77 182.28A8.5 8.5 0 0 0 0 173.82v16.93a8.5 8.5 0 0 0 7.77-8.47z" class="card2_cls-2"/>
+            <circle cx="20.56" cy="182.28" r="7.8" class="card2_cls-2"/>
+            <circle cx="40.45" cy="182.28" r="7.09" class="card2_cls-2"/>
+            <circle cx="58.91" cy="182.28" r="6.38" class="card2_cls-2"/>
+            <circle cx="75.96" cy="182.28" r="5.67" class="card2_cls-2"/>
+            <circle cx="91.59" cy="182.28" r="4.96" class="card2_cls-2"/>
+            <circle cx="105.8" cy="182.28" r="4.25" class="card2_cls-2"/>
+            <circle cx="118.6" cy="182.28" r="3.54" class="card2_cls-2"/>
+            <circle cx="129.98" cy="182.28" r="2.83" class="card2_cls-2"/>
+            <circle cx="139.94" cy="182.28" r="2.13" class="card2_cls-2"/>
+            <circle cx="148.48" cy="182.28" r="1.42" class="card2_cls-2"/>
+        </g>
+    </g>
+</svg>

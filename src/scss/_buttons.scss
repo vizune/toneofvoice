@@ -1,0 +1,73 @@
+.buttons {
+    display: none;
+    visibility: hidden;
+
+    @media(max-width: 769px) {
+        display: inline-block;
+        visibility: visible;
+        //position: relative;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .btn {
+        background: $purple;
+        border: 2px solid $purple;
+        border-radius: 100%;
+        color: #fff;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0;
+        margin: 0 5px;
+
+        position: relative;
+        //left: 50%;
+        //transform: translateX(-50%);
+
+        // Old positioning of buttons on either side
+        //top: 50%;
+        //transform: translateY(-50%);
+
+        @media(min-width: 560px) {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        &:hover, &:focus {
+            background: transparent;
+            color: $purple;
+        }
+
+        &:focus {
+            outline: 1px dashed $cyan;
+        }
+
+        &:before {
+            //color: $purple;
+            display: block;
+            float: left;
+            width: 100%;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.btn-prev {
+    //left: 0;
+    right: 1rem;
+
+    &:before {
+        content: "\2190";
+
+    }
+}
+
+.btn-next {
+    //right: 0;
+    left: 1rem;
+
+    &:before {
+        content:'\2192';
+    }
+}

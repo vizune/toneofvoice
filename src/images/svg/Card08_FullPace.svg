@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195.91 252">
+  <title>
+    Asset 3
+  </title>
+  <g data-name="Layer 1">
+    <path fill="#38328a" d="M0 0h180v252H0z"/>
+    <circle cx="95.91" cy="159.97" r="44.48" fill="#e94266"/>
+    <path d="M169.16 51.47A58.85 58.85 0 1 0 180 168.17V52.49a59.12 59.12 0 0 0-10.84-1.02z" fill="#e94266"/>
+    <path d="M175.73 89a75.32 75.32 0 1 0 0 150.65c1.44 0 2.86 0 4.27-.13V89.12c-1.42-.12-2.84-.12-4.27-.12z" fill="#e94266"/>
+    <path fill="none" stroke="#fad402" stroke-linecap="round" stroke-miterlimit="10" stroke-width="9" d="M69.41 84.49h88.47M89.41 104.49h13.75M19.4 124.5h83.76M39.41 144.5h132M89.41 184.5h99.92M119.41 124.5h71.5M119.41 104.49h35.83M171.41 104.49h19.49"/>
+    <path d="M172.41 84.49h18.49" fill="none" stroke="#fad402" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+    <path d="M147.41 164.5h43.49M120.78 164.5h11.46" fill="none" stroke="#fad402" stroke-linecap="round" stroke-miterlimit="10" stroke-width="9"/>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+.card {
+    background-color: transparent;
+    border: 0;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 5px 20px -5px rgba(50, 50, 93, 0.12), 0 3px 4px -2px rgba(0, 0, 0, 0.08);
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 30px 75px -15px rgba(50, 50, 93, 0.3), 0 25px 40px -20px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    &.card--flipped {
+        transform-style: preserve-3d;
+
+        .card__front {
+            transform: rotateY(180deg);
+            z-index: 1;
+        }
+
+        .card__back {
+            transform: rotateY(0deg);
+            z-index: 2;
+        }
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.card__front, .card__back {
+    backface-visibility: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform .3s ease-in;
+}
+
+.card__front {
+    transform: rotateY(0deg);
+    z-index: 2;
+}
+
+.card__back {
+    background-color: $purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    padding: 1.25rem; 
+    position: absolute;
+    top: 0;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.card--yellow {
+    background-color: $yellow;
+}
+
+.card--purple {
+    background-color: $purple;
+}
+
+.card--pink {
+    background-color: $pink;
+}
+
+.card__svg {
+    display: block;
+}
+
+.svg-path--yellow {
+    fill: $yellow;
+}
+
+.svg-path--purple {
+    fill: $purple;
+}
+
+.svg-path--pink {
+    fill: $pink;
+}
+
+.svg-path--background {
+    display: none;
+}
+
+.transform-center {
+    transform-origin: center;
+}
+
+.transform-bottom {
+    transform-origin: bottom;
+}
+
+.transform-top {
+    transform-origin: top;
+}
+
+.alt-color--pink {
+    color: $pink;
+}

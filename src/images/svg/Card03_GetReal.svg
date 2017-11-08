@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 252">
+    <defs>
+        <style>
+        .card3_cls-1 { fill: #fad402; } .card3_cls-2 { fill: #e94266; } .card3_cls-3 { fill: #38328a; }
+        </style>
+    </defs>
+    <g>
+        <path d="M0 0h180v252H0z" class="card3_cls-1"/>
+        <g id="card3-group">
+            <path d="M90 202.7a76.7 76.7 0 1 1 76.7-76.7A76.78 76.78 0 0 1 90 202.7zm0-123.4a46.7 46.7 0 1 0 46.7 46.7A46.74 46.74 0 0 0 90 79.3z" class="card3_cls-2"/>
+            <circle cx="90" cy="126" r="24.06" class="card3_cls-3"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+@keyframes pulse {
+    from { 
+        transform: scale(1);
+    }
+    to { 
+        transform: scale(1.2); 
+    }
+}
+
+.logo {
+    width: 78px;
+    height: 50px;
+    z-index: 10;
+    // 3rem from swipe-container
+    margin: 0 0 -3rem 0;
+    text-align: center;
+
+    @media(max-width: 768px) and (orientation: portrait) {
+        height: 10%;
+        width: 100%;
+        padding: .5rem 0;
+    }
+
+    @media(min-width: 769px) {
+        width: 153px;
+        height: 98px;
+        padding: 0;
+        margin: 20px auto 0;
+        display: block;
+    }
+
+    a:focus {
+        outline: 2px dashed darken($cyan, 10%);                     
+    }
+}
+
+.logo__img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+
+    @media(min-width: 769px) {
+        max-width: 100%;
+        height: auto;
+    }
+    
+
+    a:hover & {
+        animation: pulse .25s 2 cubic-bezier(.175,.885,.32,1.275) alternate;
+    }
+}

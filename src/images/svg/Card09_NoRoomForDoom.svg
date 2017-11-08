@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 252">
+  <title>
+    Asset 4
+  </title>
+  <g data-name="Layer 1">
+    <path fill="#fad402" d="M0 0h180v252H0z"/>
+    <path d="M0 252a90 90 0 0 1 180 0z" fill="#38328a"/>
+    <circle cx="73.7" cy="129.5" r="11.39" fill="#38328a"/>
+    <circle cx="106.3" cy="129.5" r="11.39" fill="#38328a"/>
+  </g>
+</svg>

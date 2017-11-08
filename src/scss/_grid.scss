@@ -1,0 +1,129 @@
+body {
+    background: #f2f2f2;
+}
+
+.cards-container {
+    position: relative;
+}
+
+// Basic support for browsers without flexbox or grid
+.grid {
+    margin: 20px 20px 0 20px;
+    
+    & > .card {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.card__svg {
+    height: 252px;
+    width: 180px;
+}
+
+.swipe-container {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    padding: 3rem 0 1.5rem;
+    max-width: 80%;
+    margin: 0 auto;
+
+    @media(min-width: 560px) and (max-width: 768px) {
+        max-width: 70%;
+    }
+
+    @media(min-width: 769px) {
+        visibility: visible;
+        padding: 0;
+        margin: 0;
+        max-width: none;
+        height: auto;
+    }
+}
+
+
+@supports ((display: -webkit-flex) or (display: -moz-flex) or (display: -ms-flexbox) or (display: flex)) and (not (display: grid)) {
+    .grid {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 20px 20px 0 20px;
+        width: calc(100% - 40px);
+        justify-content: center;
+        align-content: flex-start;
+
+        & > .card {
+            margin-right: 20px;
+            margin-bottom: 20px;
+    
+            @media(min-width: 1020px) {
+                flex: 1;
+            }
+    
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .card__svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@supports(display: grid) {
+    .grid {
+        margin: 0;
+        padding: 0;
+        //overflow: hidden;
+        position: relative;
+        
+        @media(min-width: 769px) {
+            display: grid;
+            grid-column-gap: 2rem;
+            grid-row-gap: 2.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            height: auto;
+            overflow: unset;
+            width: auto;
+            max-width: 1750px;
+            margin: 0 auto;
+            padding: 2.5rem 0 3rem;
+        }
+
+        & > .card {
+            // flex-shrink: 0;
+            margin: 0;
+            float: left;
+            width: 100%;
+            position: relative;
+            //overflow: hidden;
+            
+            @media(min-width: 769px) {
+                flex-shrink: 1;
+                height: 100%;
+                width: 100%;
+                overflow: unset;
+            }
+        }
+    }
+    
+    .card__svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    html, body, main {
+        height: 90%;
+    }
+
+    .card-container {
+        height: 90%;
+    }
+    
+}
